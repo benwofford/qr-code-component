@@ -1,7 +1,23 @@
+* {
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+.stage {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 10vh;
+  background-color: white;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
