@@ -2,8 +2,17 @@
   font-family: "Encode Sans Expanded", sans-serif;
 }
 
-.stage {
+/* TODO: fix padding around image, fix h2 & p, mobile compatability, README, post to Li */
+
+body {
   background-color: hsl(212, 45%, 89%);
+}
+
+.stage {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  width: 100%;
 }
 
 .card {
@@ -11,13 +20,33 @@
   margin: 0 auto;
   margin-top: 10vh;
   background-color: white;
+  padding: 8px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
 }
 
-.attribution {
+img {
+  width: 100%;
+  border-radius: 12px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.tag {
+  padding: 4px 8px;
+}
+
+.tag p {
+  font-size: 15px;
+}
+
+.footer {
+  /* padding: 10px; */
+  margin: 10px;
   font-size: 11px;
   text-align: center;
 }
 
-.attribution a {
+.footer a {
   color: hsl(228, 45%, 44%);
 }
