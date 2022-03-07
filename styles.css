@@ -1,8 +1,8 @@
 * {
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
-/* TODO: fix padding around image, fix h2 & p, mobile compatability, README, post to Li */
+/* TODO: mobile compatability, README, post to Li */
 
 body {
   background-color: hsl(212, 45%, 89%);
@@ -20,9 +20,10 @@ body {
   margin: 0 auto;
   margin-top: 10vh;
   background-color: white;
-  padding: 8px;
+  padding: 14px;
   border-radius: 12px;
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 img {
@@ -33,20 +34,25 @@ img {
 }
 
 .tag {
-  padding: 4px 8px;
+  padding: 6px 10px;
+}
+
+.tag h2 {
+  font-size: 20px;
 }
 
 .tag p {
   font-size: 15px;
+  opacity: 50%;
+  padding: 10px;
 }
 
-.footer {
+.attribution {
   /* padding: 10px; */
   margin: 10px;
-  font-size: 11px;
-  text-align: center;
+  font-size: 10px;
 }
 
-.footer a {
+.attribution a {
   color: hsl(228, 45%, 44%);
 }
