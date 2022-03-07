@@ -22,7 +22,6 @@ body {
 .card {
   max-width: 300px;
   margin: 0 auto;
-  margin-top: 10vh;
   background-color: white;
   padding: 14px;
   border-radius: 12px;
@@ -52,7 +51,6 @@ img {
 }
 
 .attribution {
-  /* padding: 10px; */
   margin: 10px;
   font-size: 10px;
 }
