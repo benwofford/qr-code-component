@@ -21,8 +21,8 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: The deployed project can be found [here](https://benwofford.github.io/qr-code-component/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-component-card-gXbxzncvQ)
+- Live Site URL: [Live Site](https://benwofford.github.io/qr-code-component/)
 
 ## My process
 
