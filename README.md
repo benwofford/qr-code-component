@@ -27,7 +27,7 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 ## My process
 
 - Go over README instructions, expectations and style guide.
-- Built DOM structure in HTML (stage, card, tag).
+- Built DOM structure in HTML (main, card, content).
 - Added color, typeface, box shadow, border radius and more via CSS.
 - Adjusted size and alignment of elements.
 - Wrote out README.
