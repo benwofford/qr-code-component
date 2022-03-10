@@ -4,18 +4,18 @@
 
 body {
   background-color: hsl(212, 45%, 89%);
-  display: flex;
+  display: flexbox;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
-.main {
+main {
   margin: 0px;
   padding: 0px;
-  height: auto;
+  min-height: auto;
   width: 100%;
 }
 
@@ -36,17 +36,17 @@ img {
   object-fit: cover;
 }
 
-.tag {
+.content {
   padding: 6px 10px;
 }
 
-.tag h2 {
-  font-size: 20px;
+.content h2 {
+  font-size: 23px;
 }
 
-.tag p {
+.content p {
   font-size: 15px;
-  opacity: 50%;
+  opacity: 80%;
   padding: 10px;
 }
 
@@ -57,13 +57,4 @@ img {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media screen and (min-width: 375px) {
-  .main {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
 }
